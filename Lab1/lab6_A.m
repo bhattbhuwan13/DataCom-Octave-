@@ -1,0 +1,10 @@
+k=1:30;
+f= exp(0.05*k);
+fmax = max(f);
+fmin = min(f);
+sum = sum(f);
+fmul = prod(f);
+fmean = mean(f);
+fvar = var(f);
+flength = length(f);
+fdimension=size(f);
