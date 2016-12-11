@@ -1,7 +1,5 @@
 a =audiorecorder;
-disp('Start Speaking');
-recordblocking(a,5);
-disp('End of Speaking');
+recordblocking(a,5); % Records your voice for 5 seconds
 play(a);
 y = getaudiodata(a);
 plot(y);
